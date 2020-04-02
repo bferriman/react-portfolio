@@ -1,16 +1,14 @@
 import React from "react";
-import Header from "../../components/Header";
-import AboutContent from "../../components/AboutContent";
-import Footer from "../../components/Footer";
+import Banner from "../Banner";
+import Navbar from "../Navbar";
 
 function Header() {
 
   return (
-    <div className="container">
-      <Header />
-      <AboutContent />
-      <Footer />
-    </div>
+    <header>
+      <Banner />
+      <Navbar />
+    </header>
   );
 }
 
