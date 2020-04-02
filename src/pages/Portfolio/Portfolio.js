@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header.js";
 import Project from "../../components/Project/Project.js";
+import Footer from "../../components/Footer/Footer.js";
 
 function Portfolio() {
 
@@ -22,15 +23,16 @@ function Portfolio() {
   return (
     <>
       <Header />
-      <section>
+      <section className="content">
         <div className="container-lg">
           {
             projectsData.projects.map( project => {
-              return <Project data={project} />;
+              return <Project data={project} key={project.order} />;
             })
           }
         </div>
       </section>
+      <Footer />
     </>
   );
 }

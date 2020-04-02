@@ -9,7 +9,7 @@ function AboutContent() {
   const data = require("../../data/about-data.js");
 
   return (
-    <section>
+    <section className="content">
       <div className="container-lg">
         <div className="row my-5 mx-1">
           <div className="d-none d-sm-block col-lg-5 px-0">
