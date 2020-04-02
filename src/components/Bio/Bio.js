@@ -1,9 +1,11 @@
 import React from "react";
 
-function Bio() {
+function Bio(props) {
 
   return (
-
+    <div id="bio">
+      <p>{props.bio}</p>
+    </div>
   );
 }
 
