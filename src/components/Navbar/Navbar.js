@@ -6,8 +6,10 @@ import NavDropdown from "../NavDropdown/NavDropdown.js";
 
 function Navbar() {
 
+  const data = require("../../data/navbar-data.js");
+
   return (
-    <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-lg">
         <a className="navbar-brand" href="/">Ben Ferriman</a>
         <NavToggler />
@@ -15,7 +17,7 @@ function Navbar() {
           <ul className="navbar-nav ml-auto">
             <NavAboutLink />
             <NavPortfolioLink />
-            <NavDropdown />
+            <NavDropdown data={data}/>
           </ul>
         </div>
       </div>

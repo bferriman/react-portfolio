@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavDropdown() {
+function NavDropdown({ data }) {
 
   return (
     <li className="nav-item dropdown">
@@ -8,10 +8,10 @@ function NavDropdown() {
         Connect
       </a>
       <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-        <a className="dropdown-item" href="{{ghProfileURL}}" target="_blank"><i className="fab fa-github"></i> GitHub</a>
-        <a className="dropdown-item" href="{{linkedInURL}}" target="_blank"><i className="fab fa-linkedin-in"></i> LinkedIn</a>
-        <a className="dropdown-item" href="mailto:{{email}}"><i className="fas fa-envelope"></i> {{email}}</a>
-        <a className="dropdown-item" href="tel:+1{{phone}}"><i className="fas fa-phone"></i> {{phoneDisplay}}</a>
+        <a className="dropdown-item" href={data.ghProfileURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> GitHub</a>
+        <a className="dropdown-item" href={data.linkedInURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i> LinkedIn</a>
+        <a className="dropdown-item" href={"mailto:" + data.email}><i className="fas fa-envelope"></i> {data.email}</a>
+        <a className="dropdown-item" href={"tel:+1" + data.phone}><i className="fas fa-phone"></i> {data.phoneDisplay}</a>
       </div>
     </li>
 

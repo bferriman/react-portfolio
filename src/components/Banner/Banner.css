@@ -1,5 +1,5 @@
 #banner {
-  height: 150px;
+  height: 100px;
   background-image:url("/images/banner.jpg");
   background-size:cover;
 }
