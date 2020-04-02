@@ -1,8 +1,8 @@
 import React from "react";
-import NavToggler from "../NavToggler";
-import NavAboutLink from "../NavAboutLink";
-import NavPortfolioLink from "../NavPortfolioLink";
-import NavDropdown from "../NavDropdown";
+import NavToggler from "../NavToggler/NavToggler.js";
+import NavAboutLink from "../NavAboutLink/NavAboutLink.js";
+import NavPortfolioLink from "../NavPortfolioLink/NavPortfolioLink.js";
+import NavDropdown from "../NavDropdown/NavDropdown.js";
 
 function Navbar() {
 

@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "../Banner";
-import Navbar from "../Navbar";
+import Banner from "../Banner/Banner.js";
+import Navbar from "../Navbar/Navbar.js";
 
 function Header() {
 
