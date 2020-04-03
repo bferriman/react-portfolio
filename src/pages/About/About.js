@@ -7,8 +7,10 @@ function About() {
 
   return (
     <>
-      <Header />
-      <AboutContent />
+      <div className="content">
+        <Header />
+        <AboutContent />
+      </div>
       <Footer />
     </>
   );

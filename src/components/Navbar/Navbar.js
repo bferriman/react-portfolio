@@ -9,7 +9,7 @@ function Navbar() {
   const data = require("../../data/navbar-data.js");
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-slate">
       <div className="container-lg">
         <a className="navbar-brand" href="/">Ben Ferriman</a>
         <NavToggler />

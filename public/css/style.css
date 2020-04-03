@@ -1,29 +1,23 @@
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .content {
-    flex: 1 0 auto;
-}
-
-.footer{
-    flex-shrink: 0;
-    color: white;
-    height: 50px;
+    min-height: calc(100vh - 42px);
 }
 
 .bg-slate {
-    background-color: #2b2e32;
+    background-color: #212420;
 }
 
 .btn-slate {
-    background-color: #2b2e32;
+    background-color: #212420;
     color: white;
+}
+
+.footer {
+    
+    color: rgba(255, 255, 255, 0.2);
+    height: 42px;
+    font-size: 12px;
+    line-height:42px;
+    text-align: center;
 }
 
 a:hover {

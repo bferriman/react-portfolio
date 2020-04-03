@@ -22,16 +22,18 @@ function Portfolio() {
 
   return (
     <>
-      <Header />
-      <section className="content">
-        <div className="container-lg">
-          {
-            projectsData.projects.map( project => {
-              return <Project data={project} key={project.order} />;
-            })
-          }
-        </div>
-      </section>
+      <div className="content">
+        <Header />
+        <section>
+          <div className="container-lg">
+            {
+              projectsData.projects.map( project => {
+                return <Project data={project} key={project.order} />;
+              })
+            }
+          </div>
+        </section>
+      </div>
       <Footer />
     </>
   );
