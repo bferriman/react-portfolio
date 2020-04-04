@@ -23,7 +23,7 @@ function Portfolio() {
   return (
     <>
       <div className="content">
-        <Header />
+        <Header active="portfolio"/>
         <section>
           <div className="container-lg">
             {

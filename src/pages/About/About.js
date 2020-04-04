@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <div className="content">
-        <Header />
+        <Header active="about"/>
         <AboutContent />
       </div>
       <Footer />

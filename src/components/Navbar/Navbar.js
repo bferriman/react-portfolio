@@ -4,7 +4,7 @@ import NavAboutLink from "../NavAboutLink/NavAboutLink.js";
 import NavPortfolioLink from "../NavPortfolioLink/NavPortfolioLink.js";
 import NavDropdown from "../NavDropdown/NavDropdown.js";
 
-function Navbar() {
+function Navbar(props) {
 
   const data = require("../../data/navbar-data.js");
 
@@ -15,8 +15,8 @@ function Navbar() {
         <NavToggler />
         <div className="collapse navbar-collapse" id="navbarLinks">
           <ul className="navbar-nav ml-auto">
-            <NavAboutLink />
-            <NavPortfolioLink />
+            <NavAboutLink active={(props.active === "about") ? "true" : "false"} />
+            <NavPortfolioLink active={(props.active === "portfolio") ? "true" : "false"}/>
             <NavDropdown data={data}/>
           </ul>
         </div>

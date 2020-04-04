@@ -1,5 +1,7 @@
+
 .content {
     min-height: calc(100vh - 42px);
+    font-family: 'Sarabun', sans-serif;
 }
 
 .bg-slate {
@@ -8,7 +10,12 @@
 
 .btn-slate {
     background-color: #212420;
-    color: white;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.dropdown-menu > .dropdown-item:hover {
+    background-color: #ddedd7;
+    background-image: none;
 }
 
 .footer {
@@ -21,12 +28,12 @@
 }
 
 a:hover {
-    color: #b1cad0;
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
 
 .btn:hover {
-    color: #b1cad0;
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
 
