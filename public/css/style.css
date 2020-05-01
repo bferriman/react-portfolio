@@ -86,3 +86,7 @@ a {
     font-size: 18px;
     line-height: 36px;
 }
+
+.navbar-brand {
+    font-family: 'Nothing You Could Do', cursive;
+}
