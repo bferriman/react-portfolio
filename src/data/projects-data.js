@@ -5,8 +5,8 @@ module.exports = {
       order: 1,
       description: "A local game store website for the age of COVID-19. Provides inventory management, online shopping, checkout, and curbside pickup, allowing a brick-and-mortar store to do business safely during the pandemic.",
       screenshot: "/images/dragons-den.jpg",
-      deployedURL: "https://dragons-den-store.herokuapp.com",
-      githubURL: "https://github.com/grlucy/ecommerce-game-store"
+      deployedURL: "https://dragonsden-demo.herokuapp.com",
+      githubURL: "https://github.com/bferriman/dragons-den"
     },
     {
       name: "Friendango",
