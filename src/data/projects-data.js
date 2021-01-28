@@ -45,7 +45,7 @@ module.exports = {
       order: 7,
       description: "A silly app, but a great way to practice MVC implementation. Create a burger, then eat it! Uses MySQL, Handlebars, Express, and a custom-built ORM.",
       screenshot: "/images/eat-the-burger.jpg",
-      deployedURL: "https://limitless-ocean-97488.herokuapp.com/",
+      deployedURL: "https://bf-eattheburger.herokuapp.com/",
       githubURL: "https://github.com/bferriman/eat-the-burger"
     },
     {
