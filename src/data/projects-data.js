@@ -26,7 +26,7 @@ module.exports = {
     },
     {
       name: "Day Planner",
-      order: 5,
+      order: 6,
       description: "Time to get organized! This app lets you schedule and save events. Uses Moment.js to responsively format time and date, and saves your events in Local Storage. Uses DOM manipulation to display state-appropriate button controls.",
       screenshot: "/images/dayplanner.jpg",
       deployedURL: "https://bferriman.github.io/day-planner/",
@@ -34,7 +34,7 @@ module.exports = {
     },
     {
       name: "Weather Dashboard",
-      order: 4,
+      order: 5,
       description: "Get the current weather as well as the five day forecast, for wherever you are, or wherever you may be going! Uses the OpenWeather API.",
       screenshot: "/images/weather.jpg",
       deployedURL: "https://bferriman.github.io/weather-dashboard/",
@@ -42,7 +42,7 @@ module.exports = {
     },
     {
       name: "Eat-The-Burger",
-      order: 7,
+      order: 8,
       description: "A silly app, but a great way to practice MVC implementation. Create a burger, then eat it! Uses MySQL, Handlebars, Express, and a custom-built ORM.",
       screenshot: "/images/eat-the-burger.jpg",
       deployedURL: "https://bf-eattheburger.herokuapp.com/",
@@ -50,11 +50,19 @@ module.exports = {
     },
     {
       name: "Employee Template",
-      order: 6,
+      order: 7,
       description: "A Node CLI for entering employee data for a software development team.  When done, it generates a styled HTML page to display your team.",
       screenshot: "/images/emp-template.jpg",
       deployedURL: "https://github.com/bferriman/employee-template",
       githubURL: "https://github.com/bferriman/employee-template"
+    },
+    {
+      name: "Quiz Game",
+      order: 4,
+      description: "A quiz game built with React.  Player answers are submitted to the server for verification via API calls.  Progress is saved in Local Storage, allowing the player to resume after closing the app.",
+      screenshot: "/images/quiz-game.jpg",
+      deployedURL: "https://bf-quizgame.herokuapp.com/",
+      githubURL: "https://github.com/bferriman/quiz-game-dw"
     }
   ]
 };
